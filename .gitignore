@@ -131,3 +131,6 @@ dmypy.json
 
 __pycache__/
 .vscode/
+
+# hide keys google cloud 
+key.json
