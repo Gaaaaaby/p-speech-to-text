@@ -13,5 +13,6 @@ COPY app/pyproject.toml app/poetry.lock* /code/
 # RUN pip install poetry
 RUN poetry config virtualenvs.create false
 RUN poetry install
+#RUN pip install google-cloud-speech
 ENV PYTHONPATH=/code
 EXPOSE 8000
